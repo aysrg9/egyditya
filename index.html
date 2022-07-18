@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Egyditya</title>
+
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit&family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top" id="home">
+      <div class="container">
+        <a class="navbar-brand">Egyditya HD</a>
+
+        <div class="menu-toggle">
+          <input
+            type="checkbox"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item pe-2">
+              <a class="nav-link text-white" href="#top">Home</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link text-white" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item pe-2">
+              <a class="nav-link text-white" href="#footer">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Home -->
+    <section id="top">
+      <div id="particles-js">
+        <div
+          class="jumbotron text-white position-absolute top-50 start-50 translate-middle"
+        >
+          <img data-aos="zoom-in" data-aos-duration="1000"
+            data-tilt
+            data-tilt-full-page-listening
+            class="float-end home-foto shadow-lg"
+            src="./assets/images/egy.jpg"
+            alt=""
+          />
+          <div class="intro" data-aos="zoom-in" data-aos-duration="1000">
+            <h1 class="display-4 fw-bold">Hello, I'm</h1>
+            <h1 class="display-4 fw-bold">Egyditya</h1>
+            <p class="lead fw-bold">I Like <span class="type"> </span></p>
+            <a
+              href="https://mail.google.com/mail/u/0/?tf=cm&fs=1&to=egyditya@gmail.com"
+              target="_blank"
+              ><button class="email-me btn btn-sm">Contact Me</button></a
+            >
+          </div>
+          <div class="beban text-center">
+            <a href="#about"
+              ><p  class="hero__scroll fw-bold">
+                Scroll down
+                <i class="chevron bottom"></i>
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Home -->
+
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <h1 data-aos="fade-down" class="text-center text-white fw-bold header-about pb-4">
+          <i class="bi bi-info-circle-fill"></i> About Me
+        </h1>
+        <h3 data-aos="fade-up" class="text-white text-center about-me">
+          Hello Everyone, my name is Egyditya, you can call me Egy. I am a 12th
+          grade SMK student who is very passionate about improving my coding
+          skills and developing websites. Thank you.
+        </h3>
+      </div>
+    </section>
+    <!-- Akhir About -->
+
+    <!-- My Skills -->
+    <section class="skills" id="skills">
+      <h1 data-aos="fade-down" class="heading header-skills text-white fw-bold text-center">
+        <i class="bi bi-code-slash"></i> My Skills
+      </h1>
+      <div id="skills-konten" class="container">
+        <div data-aos="zoom-in" class="row" id="skillsContainer">
+          <div data-tilt class="bar">
+            <div class="info">
+              <img src="./assets/images/logo/html.png" alt="html" />
+              <span>HTML5</span>
+            </div>
+          </div>
+          <div data-tilt class="bar">
+            <div class="info">
+              <img src="./assets/images/logo/css.png" alt="css" />
+              <span>CSS3</span>
+            </div>
+          </div>
+          <div data-tilt class="bar">
+            <div class="info">
+              <img src="./assets/images/logo/bootstrap.png" alt="bootstrap" />
+              <span>Bootstrap</span>
+            </div>
+          </div>
+          <div data-tilt class="bar">
+            <div class="info">
+              <img src="./assets/images/logo/js.png" alt="javascript" />
+              <span>JavaScript</span>
+            </div>
+          </div>
+          <div data-tilt class="bar">
+            <div class="info">
+              <img src="./assets/images/logo/php.png" alt="php" />
+              <span>PHP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir My Skills -->
+
+    <!-- Projects -->
+    <section class="project" id="projects">
+      <h1 data-aos="fade-down" class="heading text-white text-center header-projects fw-bold pb-5">
+        <i class="bi bi-journal-code"></i> My Projects
+      </h1>
+
+      <div class="container container-projects">
+        <!-- Warteg -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div data-aos="flip-left" class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/projects/warteg.png"
+                class="card-img-top image-projects"
+                alt="..."
+              />
+              <div class="overlay">
+                <h5
+                  class="header-projects-name card-title text-center text-white fw-bold"
+                >
+                  Warteg B. Inggris
+                </h5>
+                <p class="card-text text-center text-white fw-bold pt-3">
+                  Simple Website Food Company.
+                </p>
+                <div class="button-view-code text-center">
+                  <a
+                    class="btn text-white fw-bold ms-5"
+                    style="background-color: #009fff"
+                    href="https://github.com/aysrg9/wartegbinggris/"
+                    target="_blank"
+                    ><i class="bi bi-code-slash"></i> Code</a
+                  >
+                  <a
+                    class="btn text-white fw-bold me-5"
+                    style="background-color: #009fff"
+                    href="https://github.com/aysrg9/wartegbinggris/"
+                    target="_blank"
+                    ><i class="bi bi-eye-fill"></i> View</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Akhir Warteg -->
+
+          <!-- Gudang Computer -->
+          <div data-aos="flip-right" class="col">
+            <div class="card h-100">
+              <img
+                src="./assets/images/projects/gudangcomputer.png"
+                class="card-img-top image-projects"
+                alt="..."
+              />
+              <div class="overlay">
+                <h5
+                  class="header-projects-name card-title text-center text-white fw-bold"
+                >
+                  Gudang Computer
+                </h5>
+                <p class="card-text text-center text-white fw-bold pt-3">
+                  Simple E Commerce Website.
+                </p>
+                <div class="button-view-code text-center">
+                  <a
+                    class="btn text-white fw-bold ms-5"
+                    style="background-color: #009fff"
+                    href="https://github.com/aysrg9/gudangcomputer/"
+                    target="_blank"
+                    ><i class="bi bi-code-slash"></i> Code</a
+                  >
+                  <a
+                    class="btn text-white fw-bold me-5"
+                    style="background-color: #009fff"
+                    href=""
+                    target="_blank"
+                    ><i class="bi bi-eye-fill"></i> View</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Akhir Gudang Computer -->
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Projects -->
+
+    <!-- Footer -->
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3 class="fw-bold"><i class="bi bi-award-fill"></i> Egyditya Portfolio</h3>
+          <p class="fw-bold text-white">
+            Thank you for visiting my personal portfolio website.<br />
+          </p>
+        </div>
+
+        <div class="box right">
+          <h3 class="fw-bold"><i class="bi bi-person-fill"></i> Contact Info</h3>
+          <p class="text-white"><i class="bi bi-telephone-fill text-white"></i></i>+62 858-9310-8983</p>
+          <p class="text-white"><i class="bi bi-envelope-fill text-white"></i>egyditya@gmail.com</p>
+          <p class="text-white">
+            <i class="bi bi-geo-alt-fill text-white"></i>Tangerang Selatan, Indonesia
+          </p>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        <div>© Copyright <a href="https://github.com/aysrg9"> Egyditya H.D</a> All Rights Reserved.</div> 
+      </h1>
+    </section>
+    <!-- Akhir Footer -->
+
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Particle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+      particlesJS.load("particles-js", "assets/js/particles.json", function () {
+        console.log("callback - particles.js config loaded");
+      });
+    </script>
+
+    <!-- Tilt JS -->
+    <script src="assets/js/vanilla-tilt.babel.min.js"></script>
+
+    <!-- Type JS -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <!-- My JS -->
+    <script src="./assets/js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: false,
+      });
+    </script>
+  </body>
+</html>
