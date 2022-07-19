@@ -16,6 +16,11 @@ body {
   font-size: 23px;
 }
 
+.navbar-brand:hover {
+  color: white;
+  cursor: pointer;
+}
+
 .nav-link {
   color: white;
   font-weight: bold;
@@ -563,7 +568,7 @@ a {
 
 @media screen and (max-width: 968px) {
   section.footer {
-    min-height: 72vh;
+    min-height: auto;
   }
   .footer .box-container .box.right {
     left: 0;
@@ -573,7 +578,7 @@ a {
 @media (max-width: 568px) {
   section.footer {
     padding: 1px 0%;
-    min-height: 72vh;
+    min-height: auto;
   }
   .footer .box-container .box h3 {
     margin-left: 10px;
