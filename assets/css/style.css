@@ -408,6 +408,8 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .footer .box-container .box {
   flex: 1 1 10rem;
