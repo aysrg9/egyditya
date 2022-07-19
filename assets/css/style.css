@@ -572,7 +572,7 @@ a {
 
 @media (max-width: 568px) {
   section.footer {
-    padding: 1.8rem 0%;
+    padding: 1px 0%;
     min-height: 72vh;
   }
   .footer .box-container .box h3 {
